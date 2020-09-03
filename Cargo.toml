@@ -1,0 +1,12 @@
+[package]
+name = "covidcasesaverage"
+version = "0.1.0"
+authors = ["stefanogarusi"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10.7", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+serde = { version = "1.0.115", features = ["derive"] }
